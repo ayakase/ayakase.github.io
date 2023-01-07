@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .header-main {
@@ -127,8 +127,10 @@ body {
 }
 
 /* section-1-and-3*/
+
 .section-1-and-3 {
     display: flex;
+    justify-content: space-between;
 }
 
 .left-img {
@@ -145,28 +147,26 @@ body {
     align-items: flex-start;
 }
 
+.section-1-and-3 p b {
+    color: white;
+}
+
 .section-1-and-3-text {
     font-size: 2rem;
     font-family: 'Work Sans';
     font-weight: lighter;
     font-style: normal;
     letter-spacing: -0.02em;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
-.view-work {
-    display: flex;
-    font-size: large;
-    margin-top: 3rem;
-    padding: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.section-1-and-3-content p:first-child {
     color: white;
-    background-color: black;
-    border: 0.2px solid white;
-    border-radius: 10rem;
-    width: 11rem;
-    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.section-1-and-3 p:nth-child(3) {
+    font-size: 1rem;
 }
 
 #icon-view {
@@ -174,8 +174,10 @@ body {
 }
 
 /* section-2-and-4 */
+
 .section-2-and-4 {
     display: flex;
+    justify-content: space-between;
 }
 
 .right-img {
@@ -191,19 +193,43 @@ body {
     align-items: flex-start;
 }
 
+.section-2-and-4 p b {
+    color: white;
+}
+
 .section-2-and-4-text {
     font-size: 2rem;
     font-family: 'Work Sans';
     font-weight: lighter;
     font-style: normal;
     letter-spacing: -0.02em;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    width: 80%;
 }
 
+.section-2-and-4-content p:first-child {
+    color: white;
+    font-size: 1rem;
+}
+
+.section-2-and-4 p:nth-child(3) {
+    font-size: 1rem;
+}
+
+#icon-view {
+    color: white;
+}
+
+/*hover section*/
+.view-work:hover {
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+}
+
+/* view work button */
 .view-work {
     display: flex;
     font-size: large;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -215,11 +241,47 @@ body {
     justify-content: space-between;
 }
 
-#icon-view {
-    color: white;
+.about-section {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
-/*hover section*/
-.view-work:hover {
-    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+.about-images-gallery {
+    display: flex;
+    justify-self: flex-end;
+    width: 100%;
+}
+
+.guitar-image {
+    align-self: center;
+    margin-right: 2rem;
+    width: 50%;
+}
+
+.about-text {
+    width: 70%;
+    margin-right: 3rem;
+}
+
+.about-text p b {
+    color: white;
+    line-height: 3.2rem;
+}
+
+.about-text p:first-child {
+    line-height: 3.2rem;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.about-text p:nth-child(2) {
+    font-size: xx-large;
+}
+
+.two-images * {
+    width: 100%;
+    margin-top: 2rem;
 }
