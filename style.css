@@ -56,6 +56,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     border-bottom: 2px solid white;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 25%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0) 75%) 5;
 }
 
 .introduce-section {
