@@ -126,16 +126,15 @@ body {
     color: white;
 }
 
+/* section-1-and-3*/
+.section-1-and-3 {
+    display: flex;
+}
 .left-img {
     margin-top: 10rem;
     width: 50%;
     height: auto;
 }
-
-.section-1-and-3 {
-    display: flex;
-}
-
 .section-1-and-3-content {
     margin-left: 5rem;
     display: flex;
@@ -171,6 +170,52 @@ body {
 #icon-view {
     color: white;
 }
+/* section-2-and-4 */
+.section-2-and-4 {
+    display: flex;
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+}
+.right-img {
+    margin-top: 10rem;
+    width: 50%;
+    height: auto;
+}
+
+.section-2-and-4-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.section-2-and-4-text {
+    font-size: 2rem;
+    font-family: 'Work Sans';
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    margin-top: 3rem;
+}
+
+.view-work {
+    display: flex;
+    font-size: large;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background-color: black;
+    border: 0.2px solid white;
+    border-radius: 10rem;
+    width: 11rem;
+    justify-content: space-between;
+}
+
+#icon-view {
+    color: white;
+}
+
 /*hover section*/
 .view-work:hover {
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
