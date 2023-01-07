@@ -8,17 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./script.js" defer></script>
- <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(document).scrollTop($(document).height());
-            });
-        });
-    </script>
 </head>
 
-<body>
+<body onload="window.scrollTo(0,document.body.scrollHeight)">
     <div class="container">
         <div class="header-main">
             <img class="logo" src="./images/Dezign.png">
@@ -52,8 +46,27 @@
             <div class="content">
                 <div class="real-estate">
                     <img class="first-img" src="./images/real-estate.png">
+                    <div class="estate-content">
+                        <p class="estate-text">REAL ESTATE TEMPLATE</p>
+                        <p class="estate-text">Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit. Ultrices
+                                lorem non feugiat
+                                egestas amet. </b></p>
+                        <p class="estate-text">Website Design</p>
+                        <button class="view-work-1"> VIEW WORK <i id="icon-1" class="fa fa-chevron-right" aria-hidden="true"></i> </button>
+                    </div>
                 </div>
-
+                <div class="smart-home">
+                    <img class="second-img" src="./images/smart-home.png">
+                    <div class="smart-home-content">
+                        <p class="smart-home-text">SMART HOME APP</p>
+                        <p class="smart-home-text">Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit. Ultrices
+                                lorem non feugiat
+                                egestas amet. </b></p>
+                        <p class="smart-home-text">Mobile App</p>
+                        <button class="view-work-2"> VIEW WORK <i id="icon-2" class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 </body>
