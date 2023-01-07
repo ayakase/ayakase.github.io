@@ -111,7 +111,7 @@ body {
 }
 
 .selected-work p {
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Work Sans';
     font-weight: lighter;
     font-style: normal;
@@ -122,4 +122,9 @@ body {
 .selected-work p b {
     font-weight: bold;
     color: white;
+}
+.first-img{
+    margin-top: 10rem;
+    width: 50%;
+    height: auto;
 }
