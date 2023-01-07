@@ -130,11 +130,13 @@ body {
 .section-1-and-3 {
     display: flex;
 }
+
 .left-img {
     margin-top: 10rem;
     width: 50%;
     height: auto;
 }
+
 .section-1-and-3-content {
     margin-left: 5rem;
     display: flex;
@@ -170,11 +172,12 @@ body {
 #icon-view {
     color: white;
 }
+
 /* section-2-and-4 */
 .section-2-and-4 {
     display: flex;
-    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
 }
+
 .right-img {
     margin-top: 10rem;
     width: 50%;
