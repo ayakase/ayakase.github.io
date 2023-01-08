@@ -136,9 +136,15 @@ body {
 }
 
 .left-img {
+    transition: transform .2s;
     margin-top: 10rem;
     width: 50%;
     height: auto;
+}
+
+/*left image hover*/
+.left-img:hover {
+    transform: scale(1.05);
 }
 
 .section-1-and-3-content {
@@ -185,7 +191,13 @@ body {
 .right-img {
     margin-top: 10rem;
     width: 50%;
+    transition: transform .2s;
     height: auto;
+}
+
+/*left image hover*/
+.right-img:hover {
+    transform: scale(1.05);
 }
 
 .section-2-and-4-content {
@@ -226,10 +238,12 @@ body {
 .view-work:hover {
     cursor: pointer;
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+    transform: scale(1.05);
 }
 
 /* view work button */
 .view-work {
+    transition: transform .2s;
     display: flex;
     font-size: large;
     margin-top: 2rem;
@@ -261,6 +275,12 @@ body {
     align-self: center;
     margin-right: 2rem;
     width: 50%;
+    transition: transform .2s;
+
+}
+
+.guitar-image:hover {
+    transform: scale(1.05);
 }
 
 .about-text {
@@ -285,6 +305,11 @@ body {
 }
 
 .two-images * {
+    transition: transform .2s;
     width: 100%;
     margin-top: 2rem;
+}
+
+.two-images *:hover {
+    transform: scale(1.05);
 }
