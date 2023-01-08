@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 /* navigation menu */
 .nav-bar a {
     margin-left: 1rem;
@@ -60,7 +61,8 @@ body {
     cursor: pointer;
     border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 25%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0) 75%) 5;
 }
-/* introduce text */ 
+
+/* introduce text */
 .introduce-section {
     margin-top: 15rem;
     font-size: 4rem;
@@ -85,6 +87,7 @@ body {
 .down-arrow {
     margin-top: 9rem;
 }
+
 /* show 4 customer brand logo */
 .client-head {
     margin-top: 12rem;
@@ -107,9 +110,14 @@ body {
 .brand-logo {
     display: flex;
     justify-content: space-around;
-    margin-top: 8rem;
+    margin-top: 6rem;
     flex-wrap: wrap;
 }
+
+.brand-logo * {
+    margin-top: 2rem;
+}
+
 /* begin main content*/
 .selected-work {
     margin-top: 12rem;
@@ -256,6 +264,7 @@ body {
     width: 11rem;
     justify-content: space-between;
 }
+
 /*about section*/
 .about-section {
     margin-top: 7rem;
@@ -312,6 +321,7 @@ body {
 .two-images *:hover {
     transform: scale(1.05);
 }
+
 /* footer section*/
 .footer-section {
     margin-top: 10rem;
@@ -345,9 +355,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.credit{
+
+.credit {
     margin-bottom: 2rem;
 }
+
 #heart-icon {
     color: red;
 }
