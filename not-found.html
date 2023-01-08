@@ -17,10 +17,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 10rem;
+            margin-top: 1rem;
             color: white;
             font-family: monospace;
             font-size: 2rem;
+            overflow: hidden;
+            position: relative;
+
         }
 
         .container button {
@@ -30,6 +33,7 @@
             border: 2px solid white;
             border-radius: 10rem;
             padding: 1rem;
+            margin-top: 1rem;
             padding-left: 2rem;
             padding-right: 2rem;
 
@@ -40,12 +44,39 @@
             background-color: white;
             color: rgb(95, 95, 95);
         }
+
+        .container img {
+            margin-top: 3rem;
+            width: 30%;
+            border-radius: 6rem;
+        }
+
+        .running-text {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            transform: translateX(100%);
+            animation: scroll 15s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <p>Nothing here :D, I haven't created anything for those buttons yet</p>
+        <p class="running-text">Nothing here :D, Unfortunately I haven't created any features for those buttons yet.</p>
+        <img src="./images/Miku.gif">
         <button onclick="history.go(-2)">Wanna go back ?</button>
         <p> Sign: An</p>
     </div>
