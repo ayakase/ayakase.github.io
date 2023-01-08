@@ -113,6 +113,9 @@ body {
     margin-top: 6rem;
     flex-wrap: wrap;
 }
+.brand-logo *{
+    margin-top: 2rem;
+}
 /* begin main content*/
 .selected-work {
     margin-top: 12rem;
