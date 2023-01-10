@@ -6,10 +6,13 @@
 
 /* NOTE: gotta use resize observer if needed for responsive*/
 
-window.onscroll = function () { scrollFunction() };
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".header-main");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+let menubtn = document.getElementsByClassName("mobile-menu")[0];
+console.log(menubtn);
+function toggleMenu() {
+    if (menubtn.style.display === "none") {
+        menubtn.style.display = "flex";
+    } else {
+        menubtn.style.display = "none";
+
+    }
+}
