@@ -21,14 +21,18 @@ body {
 .header-main {
     top: 0;
     position: sticky;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     z-index: 100;
     width: 100%;
     height: 100%;
     display: flex;
     border-radius: 1rem;
-    background-color: #BC3CD8;
     justify-content: space-between;
+}
+
+.header-main.scrolled {
+    background-color: rgb(180, 180, 180) !important;
+    transition: background-color 200ms linear;
 }
 
 .logo {
@@ -38,7 +42,6 @@ body {
 
 .nav-bar {
     width: 23%;
-    margin-right: 2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -115,9 +118,11 @@ body {
     margin-top: 6rem;
     flex-wrap: wrap;
 }
-.brand-logo *{
+
+.brand-logo * {
     margin-top: 2rem;
 }
+
 /* begin main content*/
 .selected-work {
     margin-top: 12rem;
@@ -367,13 +372,26 @@ body {
 ::-webkit-scrollbar {
     width: 12px;
 }
+
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgb(0, 0, 0);
 }
+
 ::-webkit-scrollbar-thumb {
     background: rgb(192, 0, 198);
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #b30095;
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav-bar {
+        display: none;
+    }
 }
